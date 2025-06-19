@@ -40,7 +40,7 @@ Getting comfortable with essential HTML tags that form the backbone of any webpa
 ---
 
 ### 📁 Files:
-- `day2-html-basics.html` (basic webpage demo)
+- [index.html](index.html) — Basic webpage demo
 
 ---
 
