@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <h1> Hello, I'm Sonam</h1>
+    <header>
+    <h1>My Web Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#about" title="Go to About Section">About</a></li>
+        <li><a href="#blog" title="Go to Blog Section">Blog</a></li>
+        <li><a href="#contact" title="Go to Contact Section">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
 
-  <p>I am learning web development using HTML, CSS, and JavaScript.</p>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Sonam. I'm learning web development using HTML, CSS, and JavaScript.</p>
+    </section>
 
-  <img src="my_photo.jpeg" height="100" weidth="100" alt="My Photo">
+    <section id="blog">
+      <h2>My Blog</h2>
+      <article>
+        <h3>Day 1: Starting HTML</h3>
+        <p>I learned the structure of an HTML document and tags like &lt;h1&gt;, &lt;p&gt;, and &lt;a&gt;.</p>
+      </article>
 
-  <p>Connect with me: <a href="https://github.com/Sonam-pixel" target="_blank">GitHub</a></p>
+      <article>
+        <h3>Day 2: Semantic HTML</h3>
+        <p>Now I know how to use tags like &lt;section&gt;, &lt;article&gt;, &lt;header&gt;, and &lt;footer&gt;!</p>
+      </article>
+    </section>
 
-  <hr>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="action/">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="username" placeholder="Enter your name" required><br>
 
-  <div>
-    <h2>My Hobbies:</h2>
-    <ul>
-      <li>Coding</li>
-      <li>Reading</li>
-      <li>Designing</li>
-    </ul>
-  </div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
 
-  <p>I love learning <span>new things</span> every day.</p>
+        <label for="feedback">Message:</label><br>
+        <textarea id="feedback" name="message" rows="4" cols="30" placeholder="Write your message here"></textarea><br><br>
 
-  <p>Water formula: H<sub>2</sub>O</p>
-  <p>Einstein's equation: E = mc<sup>2</sup></p>
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+          <option value="question">Question</option>
+          <option value="feedback">Feedback</option>
+        </select><br><br>
 
-  <pre>
-I enjoy:
-- Exploring code
-- Building websites
-- Solving problems
-  </pre>
-
-  <h2>My Education</h2>
-  <table border="black">
-    <tr>
-      <th>Class</th>
-      <th>Marks</th>
-    </tr>
-    <tr>
-      <td>10th</td>
-      <td>2020</td>
-    </tr>
-    <tr>
-      <td>92%</td>
-      <td>89%</td>
-    </tr>
-  </table>
-
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 </body>
 </html>
 
+</body>
+</html>
