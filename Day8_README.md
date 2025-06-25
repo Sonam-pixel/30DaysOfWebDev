@@ -58,7 +58,7 @@ Mastering **Flexbox** for responsive layouts and **CSS Animations** to add motio
 - Visual Studio Code  
 - Live Server Extension  
 - Git & GitHub
-
+- 
 ---
 
 ### 📌 Tomorrow’s Plan:
