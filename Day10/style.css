@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: peachpuff;
+  padding: 30px;
+}
+
+.container {
+  background: papayawhip;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #008cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 20px;
+  list-style-type: square;
+}
