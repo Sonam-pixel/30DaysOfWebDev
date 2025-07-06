@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.note {
+  background-color: #fff8dc;
+  border-left: 5px solid #f4a261;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+  text-align: left;
+}
+
+.note button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
