@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WhatsApp Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Chats</h2>
+      <ul class="contact-list">
+        <li class="contact" onclick="selectContact('Alice')">Alice</li>
+        <li class="contact" onclick="selectContact('Bob')">Bob</li>
+        <li class="contact" onclick="selectContact('Charlie')">Charlie</li>
+      </ul>
+    </div>
+    
+    <div class="chat-area">
+      <div class="chat-header" id="chat-header">Select a contact</div>
+      <div class="chat-box" id="chat-box">
+        <div class="info">No contact selected</div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type a message" disabled />
+        <button onclick="sendMessage()" disabled id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
